@@ -9,7 +9,7 @@
 const SAE_EDITION = Object.freeze({
   product: 'SAE Controle de Escala',
   edition: 'free',
-  version: '3.1.1',
+  version: '3.2.0',
   storage: 'local',
   features: {
     localSchedule: true,

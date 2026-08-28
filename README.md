@@ -134,3 +134,10 @@ Para a edição Completa, cada aba da planilha deve representar uma entidade (`C
 ## Tema da marca
 
 O padrão inicial permanece **dark glassmorphism**. O controle no cabeçalho alterna para um tema claro SAE, mantém a preferência em `localStorage`, atualiza `color-scheme` e `theme-color` e aplica a escolha antes da montagem do Vue para evitar flash visual. A preferência de tema é independente dos dados da escala e, portanto, não entra no backup operacional.
+
+### Legibilidade e acessibilidade visual
+
+- A interface utiliza **Atkinson Hyperlegible** nos conteúdos e **Inter** nos títulos e controles, carregadas pelo Google Fonts com fallbacks de sistema.
+- Textos operacionais — abas, botões, grade, indicadores, cadastros e resumos — foram ampliados em 25% para reduzir esforço de leitura durante o uso contínuo.
+- Títulos e subtítulos foram reduzidos em 25% para liberar espaço útil sem competir visualmente com os dados operacionais.
+- As cores secundárias ganharam maior contraste nos temas dark e light; informação não é comunicada somente pela cor, preservando códigos, rótulos e alertas textuais.
